@@ -42,7 +42,8 @@ python evaluation/validate_submission.py "solution/submission/Python in my Backe
 ```
 
 The code uses the challenge repository's loaders (`games.py`, `evaluation/`), which is why it
-lives in `./solution` inside it. The output is identical to the committed CSV.
+lives in `./solution` inside it. We checked this from a fresh clone with no caches (Windows 11,
+Python 3.13.7, CPU only): the output is byte-for-byte identical to the committed CSV.
 
 To produce the variant chosen only on the DFL matches (models also decide dead balls), run
 `python solution/make_submission.py --mode model`.
