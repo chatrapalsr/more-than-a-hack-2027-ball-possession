@@ -35,7 +35,7 @@ first run builds the feature cache and takes about a minute on a laptop.
 git clone https://github.com/metrica-sports/more-than-a-hack-2027
 cd more-than-a-hack-2027
 # put the challenge data bundle in ./data as described in the challenge DATA.md
-git clone <this repository> solution
+git clone https://github.com/chatrapalsr/python-in-my-backend solution
 pip install -r solution/requirements.txt
 python solution/make_submission.py
 python evaluation/validate_submission.py "solution/submission/Python in my Backend.csv"
